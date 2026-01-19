@@ -33,18 +33,6 @@ GROUP BY
     c.hypertension,
     c.hyperlipidemia;
 
--- Average clinical metrics for readmitted vs non-readmitted
-SELECT
-    a.readmission_flag,
-    ROUND(AVG(cm.hba1c), 2) AS avg_hba1c,
-    ROUND(AVG(cm.systolic_bp), 1) AS avg_systolic_bp,
-    ROUND(AVG(cm.diastolic_bp), 1) AS avg_diastolic_bp,
-    ROUND(AVG(cm.cholesterol), 1) AS avg_cholesterol
-FROM admissions a
-JOIN clinical_metrics cm
-    ON a.patient_id = cm.patient_id
-GROUP BY a.readmission_flag;
-
 -- Identify high-risk patients
 SELECT
    DISTINCT (cm.patient_id),
@@ -95,3 +83,4 @@ JOIN clinical_metrics cm
 GROUP BY a.readmission_flag;
 
 --
+
