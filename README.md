@@ -1,12 +1,12 @@
 # Healthcare SQL Analytics: Lifestyle Diseases and Hospital Readmissions
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates the use of SQL in a healthcare setting to analyze lifestyle diseases and hospital readmissions. The focus is on conditions highly prevalent in the UAE, such as diabetes, hypertension, and hyperlipidemia.
 The project simulates a real-world hospital database and performs clinical risk stratification and readmission analysis using SQL.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Design a relational healthcare database
 - Analyze the impact of lifestyle diseases on hospital readmissions
 - Identify high-risk patients using clinical metrics
@@ -27,7 +27,7 @@ Hospital readmissions are often linked to unmanaged lifestyle diseases such as d
 
 ---
 
-## 🗂️ Database Schema
+## Database Schema
 The database consists of four interconnected tables:
 
 - **patients** – demographic information
@@ -39,14 +39,14 @@ Each table is linked using `patient_id` as a foreign key.
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 - SQLite
 - DBeaver
 - SQL (Joins, Aggregations, Subqueries, Conditional Logic)
 
 ---
 
-## 🔍 Key Analyses Performed
+## Key Analyses Performed
 - Count patients with chronic conditions
 - Overall hospital readmission rate
 - Readmissions by lifestyle disease
@@ -70,13 +70,13 @@ This project demonstrates how healthcare data analytics can support early risk i
 
 ---
 
-## 🚀 Future Scope
+## Future Scope
 - Integration with Power BI dashboards
 - Predictive modeling using Python and Machine Learning
 - Clinical decision support using AI
 
 ---
 
-## 📎 Project Status
+## Project Status
 Completed SQL-based healthcare analytics project  
 Ready for AI and advanced analytics integration
