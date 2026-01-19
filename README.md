@@ -36,12 +36,12 @@ Each table is linked using `patient_id` as a foreign key.
 
 ## 🔍 Key Analyses Performed
 - Count patients with chronic conditions
-- Average clinical metrics by readmission
+- Average clinical metrics for readmitted vs non-readmitted
 - Overall hospital readmission rate
 - Readmissions by lifestyle disease
 - Identification of high-risk patients using clinical thresholds
+- High-risk patients with readmission history
 - Comparison of clinical metrics for readmitted vs non-readmitted patients
-
 ---
 
 ## 📊 Sample Insights
