@@ -70,10 +70,20 @@ This project demonstrates how healthcare data analytics can support early risk i
 
 ---
 
+## Key Skills Demonstrated
+- SQL for healthcare data analysis
+- Relational database design (SQLite)
+- Healthcare domain knowledge (lifestyle diseases, readmissions)
+- Data aggregation and clinical metric analysis
+- Translating data insights into healthcare impact
+
+---
+
 ## Future Scope
 - Integration with Power BI dashboards
 - Predictive modeling using Python and Machine Learning
 - Clinical decision support using AI
+  
 
 ---
 
